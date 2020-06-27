@@ -1,0 +1,53 @@
+* {
+    border-radius: 10px;
+}
+
+#draggable-elements, #droppable-areas {
+    margin: 0 auto;
+}
+
+#draggable-elements {
+    border: 5px solid #F8333C;
+    padding: 25px;
+}
+
+.draggable-element {
+    width: 50px;
+    height: 50px;
+    background-color: #F8333C;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#droppable-areas {
+    border: 5px solid #8e2dbb;
+}
+
+.drop-area {
+    height: 70px;
+    border: 3px solid #e94b8d;
+}
+
+p {
+    color: #e94b8d;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+    #draggable-elements {
+        padding: 15px;
+    }
+    
+    .draggable-element {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        font-size: 15px;
+    }
+    
+    .drop-area {
+        height: 60px;
+    }
+}

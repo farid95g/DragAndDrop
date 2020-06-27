@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-between flex-lg-nowrap">
+            <div class="mt-5 d-flex flex-wrap col-lg-5 col-md-10 col-sm-10 col-10" id="draggable-elements">
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="1">1</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="2">2</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="3">3</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="4">4</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="5">5</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="6">6</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="7">7</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="8">8</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="9">9</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="10">10</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="11">11</div>
+                <div class="d-flex align-items-center justify-content-center draggable-element" data-id="12">12</div>
+            </div>
+            <div class="mt-5 d-flex flex-wrap col-lg-6 col-md-10 col-sm-10 col-10" id="droppable-areas">
+                <p class="mt-2 col-12 text-center">1-4</p>
+                <div class="mb-3 col-lg-10 offset-lg-1 drop-area" data-min="1" data-max="4"></div>
+                <p class="mt-2 col-12 text-center">5-8</p>
+                <div class="mb-3 col-lg-10 offset-lg-1 drop-area" data-min="5" data-max="8"></div>
+                <p class="mt-2 col-12 text-center">9-12</p>
+                <div class="mb-3 col-lg-10 offset-lg-1 drop-area" data-min="9" data-max="12"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
