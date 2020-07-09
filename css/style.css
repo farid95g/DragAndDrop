@@ -1,5 +1,10 @@
 * {
     border-radius: 10px;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
 }
 
 #draggable-elements, #droppable-areas {
@@ -7,32 +12,31 @@
 }
 
 #draggable-elements {
-    border: 5px solid #F8333C;
+    border: 5px solid rgb(17, 19, 173);
     padding: 25px;
 }
 
 .draggable-element {
     width: 50px;
     height: 50px;
-    background-color: #F8333C;
+    background-color: rgb(17, 19, 173);
     margin: 10px;
-    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
 
 #droppable-areas {
-    border: 5px solid #8e2dbb;
+    border: 5px solid rgb(17, 19, 173);
 }
 
 .drop-area {
     height: 70px;
-    border: 5px solid #8e2dbb;
+    border: 5px solid rgb(17, 19, 173);
 }
 
 p {
-    color: #8e2dbb;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* codes for responsiveness start */
@@ -50,5 +54,9 @@ p {
     
     .drop-area {
         height: 60px;
+    }
+
+    p {
+        font-size: 16px;
     }
 }
